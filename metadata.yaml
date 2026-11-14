@@ -1,1 +1,13 @@
+name: astrbot_plugin_time_tracker
+display_name: 时长打卡
+version: 1.0.0
+author: user
+repo: https://github.com/你的用户名/astrbot_plugin_time_tracker
+desc: 极简时长打卡，记录学习、健身、睡眠时长，支持周/月统计、导出记录
+short_desc: 学习健身睡眠时长打卡统计
+astrbot_version: ">=4.13.0"
+tags:
+  - 打卡
+  - 习惯
+  - 统计
 
