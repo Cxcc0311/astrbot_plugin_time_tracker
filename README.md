@@ -1,15 +1,16 @@
 # astrbot_plugin_time_tracker
-AstrBot 极简打卡插件，记录学习、健身、睡眠时长
+时长打卡插件，记录学习、健身、睡眠时长，支持日/周/月统计
+
+## 适配版本
+AstrBot >=4.26, <5
 
 ## 指令
-- `/log 学习 3.5` 记录学习3.5小时
-- `/log 健身 0.8` 健身48分钟
-- `/log 睡眠 7.2` 睡眠7.2小时
-- `/today` 今日记录
-- `/week` 本周汇总
-- `/month` 本月汇总
-- `/export` 导出json记录
+- `/log 分类 时长` 记录，例：`/log 学习 3.5`
+- `/today` 查看今日记录
+- `/week` 查看本周汇总
+- `/month` 查看本月汇总
+- `/export` 导出记录文件
 - `/trackhelp` 帮助
 
-## 安装
-AstrBot WebUI → 插件 → 右下角+ → 从URL安装，填入本仓库地址
+## 安装方式
+AstrBot → 安装插件 → 从链接安装
